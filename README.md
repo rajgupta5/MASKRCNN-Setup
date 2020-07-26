@@ -56,5 +56,9 @@ Tensorflow Model Garden https://github.com/tensorflow/models/blob/master/researc
 - Once training stops, run below command for converting ckpt file into pb file
   - python export_inference_graph.py --input_type image_tensor --pipeline_config_path mask_rcnn_training/mask_rcnn_inception_v2_coco.config --trained_checkpoint_prefix mask_rcnn_training/model.ckpt-100 --output_directory inference_graph
   - On running this command "inference_grapgh" folder is created with file "frozen_inference_graph.pb"
+  
+  
+- Other Links
+  - https://distill.pub/2017/feature-visualization/
 
 
